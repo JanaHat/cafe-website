@@ -189,8 +189,8 @@ nav {
 }
 
 nav img {
-  height: 80px;
-  width: 150px;
+  height: 40px;
+  width: 130px;
 }
 
 nav ul {
@@ -331,15 +331,15 @@ footer .social-media img:hover {
   .home img {
     background-size: cover;
     position: absolute;
-    top: 0px;
-    height: 450px;
+    top: 80px;
+    height: 400px;
     width: 100%;
   }
   .home .overlay {
-    height: 450px;
+    height: 400px;
     width: 100%;
     position: absolute;
-    top: 0px;
+    top: 80px;
     background-color: #1f1405;
     opacity: 0.8;
   }
