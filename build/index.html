@@ -112,13 +112,13 @@
             <h2>Send us a message</h2>
             <form class="contact-us-form" action="https://formsubmit.co/hatasova.j@gmail.com" method="POST">
                 <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Enter your name..." required>
+                <input type="text" name="name" placeholder="Full Name" required>
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Enter you email address..." required>
+                <input type="email" name="email" placeholder="example@1234.com" required>
                 <label for="message">Your Message</label>
                 <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                <button class="send-btn">Send</button>
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <button type="submit" class="send-btn">Send</button>
+                <input type="hidden" name="_next" value="https://lazycatcafe.netlify.app//thanks.html">
                 <input type="hidden" name="_subject" value="New email from my website!">
             </form>
         </div>
